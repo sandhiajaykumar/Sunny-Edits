@@ -18,6 +18,13 @@ const Portfolio = () => {
       thumbnail: 'https://img.youtube.com/vi/ENTiexLtmT8/maxresdefault.jpg'
     },
     {
+      title: 'Birthday Invitation Video Edit',
+      type: 'YouTube',
+      url: 'https://youtu.be/r6w0tk5tO2E?si=kRPUmEbM2Tyz78E9',
+      embedUrl: 'https://www.youtube.com/embed/r6w0tk5tO2E',
+      thumbnail: 'https://img.youtube.com/vi/r6w0tk5tO2E/maxresdefault.jpg'
+    },
+    {
       title: 'Village Jathara Edit',
       type: 'Instagram',
       url: 'https://www.instagram.com/reel/DKFP8jHTgn2/?igsh=OG1xcHFtdjVzYTh2',
