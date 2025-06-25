@@ -61,7 +61,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center space-x-4">
                 <span className="text-primary">📍</span>
-                <span className="text-white">samteaminfo@gmail.com</span>
+                <span className="text-white">sateaminfo@gmail.com</span>
               </div>
             </div>
           </div>
