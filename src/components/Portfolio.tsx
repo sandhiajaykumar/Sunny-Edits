@@ -34,7 +34,7 @@ const Portfolio = () => {
       title: 'SRH DJ Ravish Collaboration Edit',
       type: 'Instagram',
       url: 'https://www.instagram.com/reel/DJY5C2tT4WP/?igsh=MTVjZW12N25nenkyYQ%3D%3D',
-      thumbnail: 'https://images.unsplash.com/photo-1571266028243-d220c2b25e5b?w=400&h=600&fit=crop'
+      thumbnail: 'https://i.postimg.cc/Vk4VDZjQ/Screenshot-2025-06-25-233020.png'
     },
     {
       title: 'College Farewell Edit',
@@ -46,7 +46,7 @@ const Portfolio = () => {
       title: 'Bhimavaram Sankranthi Vibes Edit',
       type: 'Instagram',
       url: 'https://www.instagram.com/reel/DE1xvcczEzR/?igsh=N3VrOTgwemUxMzMw',
-      thumbnail: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop'
+      thumbnail: 'https://i.ytimg.com/vi/kEibziDDsww/maxresdefault.jpg'
     }
   ];
 
