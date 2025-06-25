@@ -15,7 +15,7 @@ const Testimonials = () => {
     },
     {
       name: 'Archin',
-      text: 'Jerry Was Wonderful to Work With. We Will Work with him again',
+      text: 'Sunny Was Wonderful to Work With. We Will Work with him again',
       color: 'bg-primary'
     }
   ];
