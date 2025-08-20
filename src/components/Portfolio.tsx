@@ -3,13 +3,7 @@ import { Play, ExternalLink } from 'lucide-react';
 
 const Portfolio = () => {
   const projects = [
-    {
-      title: 'Stylish Short Wedding Reel Edit',
-      type: 'YouTube',
-      url: 'https://youtu.be/r6w0tk5tO2E?si=kRPUmEbM2Tyz78E9',
-      embedUrl: 'https://www.youtube.com/embed/r6w0tk5tO2E',
-      thumbnail: 'https://img.youtube.com/vi/r6w0tk5tO2E/maxresdefault.jpg'
-    },
+    
     {
       title: 'Melody Wedding Highlight Edit',
       type: 'YouTube',
