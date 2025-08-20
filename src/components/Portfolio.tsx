@@ -4,6 +4,20 @@ import { Play, ExternalLink } from 'lucide-react';
 const Portfolio = () => {
   const projects = [
     {
+      title: 'Stylish Short Wedding Reel Edit',
+      type: 'YouTube',
+      url: 'https://youtu.be/r6w0tk5tO2E?si=kRPUmEbM2Tyz78E9',
+      embedUrl: 'https://www.youtube.com/embed/r6w0tk5tO2E',
+      thumbnail: 'https://img.youtube.com/vi/r6w0tk5tO2E/maxresdefault.jpg'
+    },
+    {
+      title: 'Melody Wedding Highlight Edit',
+      type: 'YouTube',
+      url: 'https://www.youtube.com/watch?v=EFSDQJuQ3bo',
+      embedUrl: 'https://www.youtube.com/embed/EFSDQJuQ3bo',
+      thumbnail: 'https://img.youtube.com/vi/EFSDQJuQ3bo/maxresdefault.jpg'
+    },
+    {
       title: 'Ee Veduka Cover Song Edit',
       type: 'YouTube',
       url: 'https://www.youtube.com/watch?v=_2hBcm3tk6g',
@@ -18,13 +32,6 @@ const Portfolio = () => {
       thumbnail: 'https://img.youtube.com/vi/ENTiexLtmT8/maxresdefault.jpg'
     },
     {
-      title: 'Birthday Invitation Video Edit',
-      type: 'YouTube',
-      url: 'https://youtu.be/r6w0tk5tO2E?si=kRPUmEbM2Tyz78E9',
-      embedUrl: 'https://www.youtube.com/embed/r6w0tk5tO2E',
-      thumbnail: 'https://img.youtube.com/vi/r6w0tk5tO2E/maxresdefault.jpg'
-    },
-    {
       title: 'Village Jathara Edit',
       type: 'Instagram',
       url: 'https://www.instagram.com/reel/DKFP8jHTgn2/?igsh=OG1xcHFtdjVzYTh2',
@@ -34,7 +41,7 @@ const Portfolio = () => {
       title: 'SRH DJ Ravish Collaboration Edit',
       type: 'Instagram',
       url: 'https://www.instagram.com/reel/DJY5C2tT4WP/?igsh=MTVjZW12N25nenkyYQ%3D%3D',
-      thumbnail: 'https://i.postimg.cc/Vk4VDZjQ/Screenshot-2025-06-25-233020.png'
+      thumbnail: 'https://images.unsplash.com/photo-1571266028243-d220c2b25e5b?w=400&h=600&fit=crop'
     },
     {
       title: 'College Farewell Edit',
@@ -46,9 +53,10 @@ const Portfolio = () => {
       title: 'Bhimavaram Sankranthi Vibes Edit',
       type: 'Instagram',
       url: 'https://www.instagram.com/reel/DE1xvcczEzR/?igsh=N3VrOTgwemUxMzMw',
-      thumbnail: 'https://i.ytimg.com/vi/kEibziDDsww/maxresdefault.jpg'
+      thumbnail: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop'
     }
   ];
+  
 
   const handleProjectClick = (project) => {
     window.open(project.url, '_blank');
