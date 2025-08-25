@@ -3,7 +3,13 @@ import { Play, ExternalLink } from 'lucide-react';
 
 const Portfolio = () => {
   const projects = [
-    
+    {
+      title: 'Promotional Short Video',
+      type: 'YouTube',
+      url: 'https://youtube.com/shorts/bmB2FeRlzw4?feature=share',
+      embedUrl: 'https://www.youtube.com/embed/bmB2FeRlzw4',
+      thumbnail: 'https://img.youtube.com/vi/bmB2FeRlzw4/maxresdefault.jpg'
+    },
     {
       title: 'Melody Wedding Highlight Edit',
       type: 'YouTube',
