@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/da5caa71-8ac8-4895-b6e1-3b7ef6705ad7
+# 🎬 Portfolio – My Best Edits
 
-## How can I edit this code?
+This is a personal **portfolio website** built with **React**, **Tailwind CSS**, and **Lucide Icons** to showcase my best **video edits** (YouTube & Instagram reels).
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+* 🎥 Showcases my **YouTube videos & Instagram edits** with thumbnails.
+* 🔗 **Clickable cards** open projects directly in a new tab.
+* 🖼️ Responsive **grid layout** for desktop & mobile.
+* 🎨 Smooth **hover effects** with play button overlay.
+* 🔖 Platform badge (YouTube / Instagram).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/da5caa71-8ac8-4895-b6e1-3b7ef6705ad7) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Frontend**: React, Vite
+* **Styling**: Tailwind CSS
+* **Icons**: Lucide React
 
-**Use your preferred IDE**
+## 📂 Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```
+portfolio/
+ ├── src/
+ │   ├── components/
+ │   │   └── Portfolio.jsx   # Portfolio component
+ │   └── App.jsx             # Main app entry
+ ├── public/                 # Static assets
+ ├── package.json
+ └── README.md
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🖼️ Preview
 
-Follow these steps:
+Each project card displays:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* A **thumbnail** of the edit (YouTube or Instagram placeholder image).
+* **Platform badge** (YouTube = red, Instagram = gradient).
+* **Play button overlay** with hover animation.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🔗 Live Projects
 
-# Step 3: Install the necessary dependencies.
-npm i
+Some of the edits featured:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+* [Promotional Short Video](https://youtube.com/shorts/bmB2FeRlzw4?feature=share)
+* [Stylish Short Wedding Reel Edit](https://youtu.be/r6w0tk5tO2E?si=kRPUmEbM2Tyz78E9)
+* [Melody Wedding Highlight Edit](https://www.youtube.com/watch?v=EFSDQJuQ3bo)
+* [Ee Veduka Cover Song Edit](https://www.youtube.com/watch?v=_2hBcm3tk6g)
+* [Aarojulu Malli Ravvu Cover Song](https://www.youtube.com/watch?v=ENTiexLtmT8)
+* …and more on Instagram 🎶
+
+## ⚡ Getting Started
+
+Clone this repo and install dependencies:
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Then open `http://localhost:5173` in your browser 🚀
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📌 Future Improvements
 
-**Use GitHub Codespaces**
+* Add **modal preview** (play YouTube videos inside site).
+* Fetch projects dynamically from a JSON file or CMS.
+* Add **filter by platform** (YouTube / Instagram).
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 👨‍💻 Author
 
-## What technologies are used for this project?
+**Sandhi Ajay Kumar**
+📧 [sandhiajay02@gmail.com](mailto:sandhiajay02@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/ajay-kumar-sandhi/) | [GitHub](https://github.com/)
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/da5caa71-8ac8-4895-b6e1-3b7ef6705ad7) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+👉 Do you want me to also include **screenshots & GIF previews** in the README (to make it more visual), or keep it text-based only?
